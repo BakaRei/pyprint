@@ -2,11 +2,11 @@
 
 
 # website settings
-username = 'Ricter'
-email = 'RicterZheng@gmail.com'
-title = 'Ricter\'s Blog'
+username = 'Rei'
+email = '8akarei@gmail.com'
+title = 'Rei\'s Blog'
 motto = u'初心を忘れず'
-disqus_shortname = 'ricterblog2'
+disqus_shortname = 'bakarei'
 
 # themes name
 theme = 'default'
