@@ -5,7 +5,7 @@
 username = 'Rei'
 email = '8akarei@gmail.com'
 title = 'Rei\'s Blog'
-motto = u'初心を忘れず'
+motto = u'繭の物語'
 disqus_shortname = 'bakarei'
 
 # themes name
