@@ -1,8 +1,9 @@
 from posts import ListPostsHandler, ListPostsByTagHandler, RetrievePostHandler, ArchiveHandler, FeedHandler
 from links import ListLinksHandler
-from others import AkarinHandler, NotFoundHandler, HitokotoHandler, WebHookHandler
+from others import AkarinHandler, NotFoundHandler, HitokotoHandler
 from background import SignInHandler, ManagePostHandler, AddLinkHandler, AddPostHandler
 from diaries import RetrieveDiaryHandler, ListDiariesHandler
+from webhook import WebHookHandler
 
 
 handlers = [
