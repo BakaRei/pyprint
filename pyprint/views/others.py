@@ -16,9 +16,3 @@ class HitokotoHandler(BaseHandler):
     def get(self):
         hitokoto_url = 'http://api.hitokoto.us/rand?encode=js&charset=utf-8'
         self.write(urllib2.urlopen(hitokoto_url).read())
-
-
-class WebHookHandler(BaseHandler):
-    def post(self, json):
-        # self.write(json)
-        print json
