@@ -28,7 +28,7 @@ handlers = [
     (r'/kamisama/posts/add', AddPostHandler),
     (r'/kamisama/links', AddLinkHandler),
 
-    #webhook.py test
+    #webhook.py
     (r'/hook', WebHookHandler),
 
     # others.py
