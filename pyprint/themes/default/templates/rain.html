@@ -1,0 +1,52 @@
+{% if is_pjax %}
+    {% extends "pjax_layout.html" %}
+{% else %}
+    {% extends "layout.html" %}
+{% endif %}
+
+
+{% block body %}
+
+	<img id="background" src="/static/rain/index.gif">
+	<img id="words" src="/static/rain/words.png" alt="words">
+	<main id="main">
+		<div class="show" id="options">
+			<ul id="rain_options">
+				<li class="soft_rain rain_type">
+					<ul class="clicked">
+				        <li class="power">
+				        	<a id="rainOn" href="#">on</a> 
+				         	<a id="rainOff" href="#">off</a> 
+				        </li>
+				    </ul>		        
+				</li>
+				<li class="rolling_thunder rain_type">
+					<ul class="">
+				        <li class="power">
+				        	<a id="thunderOn" href="#">on</a> 
+				         	<a id="thunderOff" href="#">off</a> 
+				        </li>   
+				    </ul>		        
+				</li>
+				<li class="loud_thunder rain_type">
+					<ul class="">
+				        <li class="power">
+				        	<a id="loudThunderOn" href="#">on</a> 
+				         	<a id="loudThunderOff" href="#">off</a> 
+				        </li>
+				    </ul>		        
+				</li>
+			</ul>
+		</div>
+		<div style="display: none;" id="progressBarContainer">
+			<div style="width: 100%;" id="progressBar"></div>
+		</div>
+	</main>
+    <script src="/static/rain/jquery-2.js"></script>
+    <script src="/static/rain/jquery-ui-1.js"></script>
+    <script src="/static/rain/detectmobilebrowser.js"></script>
+	<script src="/static/rain/rainyday.js"></script>
+    <script src="/static/rain/soundmanager2-nodebug.js"></script>
+	<script src="/static/rain/index.js"></script>
+
+{% endblock %}

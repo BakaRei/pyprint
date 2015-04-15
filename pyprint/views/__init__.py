@@ -3,6 +3,7 @@ from links import ListLinksHandler
 from others import AkarinHandler, NotFoundHandler, HitokotoHandler
 from background import SignInHandler, ManagePostHandler, AddLinkHandler, AddPostHandler
 from diaries import RetrieveDiaryHandler, ListDiariesHandler
+from rain import RainHandler
 from webhook import WebHookHandler
 
 
@@ -27,6 +28,9 @@ handlers = [
     (r'/kamisama/posts', ManagePostHandler),
     (r'/kamisama/posts/add', AddPostHandler),
     (r'/kamisama/links', AddLinkHandler),
+
+    # rain
+    (r'/rain', RainHandler),
 
     #webhook.py
     (r'/hook', WebHookHandler),
