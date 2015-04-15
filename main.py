@@ -5,7 +5,8 @@ from tornado.options import options, define
 
 from pyprint import Application
 
-define('port', default=8888, help='listen on the port', type=int)
+
+define('port', default=8880, help='listen on the port', type=int)
 define('address', default='0.0.0.0', help='binding at given address', type=str)
 
 if __name__ == '__main__':
