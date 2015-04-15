@@ -3,5 +3,6 @@
 .idea
 *.db
 pyprint/localsettings.py
+pyprint/views/webhook.py
 pyprint/themes/default/static/postimg/*
 *.log
