@@ -60,8 +60,8 @@ class BaseHandler(tornado.web.RequestHandler, JinjaTemplateMixin):
         if headers:
             for key, value in headers.iteritems():
                 self.set_header(key, value)
-        self.set_header('X-Zhazha', 'R1ct3r 1s zh@zh@')
-        self.set_header('X-Powered-by', 'PyPrint')
+        self.set_header('X-Zhazha', 'R3i w@nt t0 b3 Juju')
+        self.set_header('X-Powered-by', 'PyPrint Thx Ricter')
         self.write(self._jinja2_render(template_name, is_pjax=bool(self.request.headers.get('X-Pjax', None)),
                                       **kwargs))
         self.finish()
