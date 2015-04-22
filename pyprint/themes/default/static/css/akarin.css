@@ -7,6 +7,7 @@ article.not-found > h3 {
 }
 
 article.not-found > img {
-    width: 300px;
+    width: 60%;
+    height: 60%;
     margin: 0 auto;
 }
